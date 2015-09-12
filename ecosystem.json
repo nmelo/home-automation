@@ -22,7 +22,7 @@
       ref  : "origin/master",
       repo : "git@github.com:nmelo/home-automation.git",
       path : "/home/nmelo/automation",
-      "post-deploy" : "npm install && pm2 startOrRestart ecosystem.json --env production"
+      "post-deploy" : "npm install && sudo pm2 startOrRestart ecosystem.json --env production"
     }
   }
 }

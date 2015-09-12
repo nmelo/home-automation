@@ -1,0 +1,31 @@
+{
+  "name": "home-automation",
+  "version": "0.0.1",
+  "description": "Triggers various processes around the house with the Amazon Dash button",
+  "main": "app.js",
+  "dependencies": {
+    "node-dash-button": "^0.1.1",
+    "pm2": "^0.14.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/nmelo/home-automation"
+  },
+  "keywords": [
+    "home-automation",
+    "node",
+    "dash",
+    "button",
+    "home",
+    "process"
+  ],
+  "author": "Nelson Melo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nmelo/home-automation/issues"
+  }
+}

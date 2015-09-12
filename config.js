@@ -1,6 +1,5 @@
-var conf = {
-  "lifx_access_token" : "",
+var config = {
+  "lifx_access_token" : ""
 };
 
-export conf = conf;
-
+module.exports.config = config;

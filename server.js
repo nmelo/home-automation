@@ -1,6 +1,4 @@
-var async = require('async')
-var lifx = require("lifx")
-
+var async = require('async');
 
 var Hapi = require('hapi');
 var Good = require('good');

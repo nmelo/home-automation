@@ -9,7 +9,8 @@
     "good-console": "^5.0.3",
     "lifx-api": "^1.0.1",
     "node-dash-button": "^0.1.1",
-    "pm2": "^0.14.7"
+    "pm2": "^0.14.7",
+    "socketwatcher": "^0.2.0"
   },
   "devDependencies": {},
   "scripts": {

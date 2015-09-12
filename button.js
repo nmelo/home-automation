@@ -1,4 +1,4 @@
-var config = require("./config.js");
+var config = require("./config.js").config;
 var dash_button = require('node-dash-button');
 var lifxObj = require('lifx-api');
 var lifx = new lifxObj(config.lifx_access_token);

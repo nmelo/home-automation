@@ -2,8 +2,12 @@
   "name": "home-automation",
   "version": "0.0.1",
   "description": "Triggers various processes around the house with the Amazon Dash button",
-  "main": "app.js",
+  "main": "server.js",
   "dependencies": {
+    "async": "^1.4.2",
+    "good": "^6.3.0",
+    "good-console": "^5.0.3",
+    "lifx-api": "^1.0.1",
     "node-dash-button": "^0.1.1",
     "pm2": "^0.14.7"
   },
